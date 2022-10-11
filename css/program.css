@@ -1,0 +1,410 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar CSS */
+.navbar {
+    display: flex;
+    width: 100%;
+    /* position: absolute; */
+    z-index: -1;
+}
+
+.nav-items {
+    width: 100%;
+}
+#nav-img {
+    width: 15vw;
+    height: 13vh;
+}
+
+.components {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin: 5vh;
+}
+
+.comp-li {
+    list-style-type: none;
+    padding: 10px 25px;
+}
+
+.comp-a {
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+}
+
+.btn-register {
+    background-color: #ff1111;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-family: poppins;
+}
+
+/* header */
+
+
+.program {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    background-image: url('../images/shutterstock-program.png');
+    background-size: 100vw 50vh;
+    transform: translateY(-7vh);
+}
+
+.program-div {
+    padding: 10vh 0 0 0;
+    color: white;
+    background-color: #04488862;
+    width: 100%;
+    height: 40vh;
+}
+
+.head-p {
+
+    font-family: playfair;
+    font-size: 1.7rem;
+
+}
+
+.head-2 {
+    font-weight: 100;
+    font-family: poppins;
+    font-size: 1.5rem;
+}
+
+/* back-image-red */
+.red-img {
+    width: 100%;
+    text-align: start;
+}
+
+#red-img-id {
+    width: 100%;
+    margin: -25vh 0 0 0;
+}
+
+/* section */
+
+.section {
+    margin: 0 10vw;
+    transform: translateY(-8vh);
+}
+
+.section-discription {
+    padding: 0 4vw 0 0;
+}
+
+.opportunities {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+/* cards */
+
+
+.u {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    padding: 4vh 3vw;
+    margin: 5vh 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(148, 148, 148, 0.164);
+}
+
+
+.sec-c-disc {
+    padding: 0 85px 0 0;
+}
+
+/* registratio includes */
+
+.reg-inc {
+    background-image: url(../images/header.png);
+    background-size: 100% 50vh;
+    color: white;
+    width: 100%;
+    height: 50vh;
+}
+
+.reg-disc {
+    width: 100%;
+    height: 50vh;
+    background: #00396e60;
+    padding: 7vh 0 0 0;
+}
+
+.reg-btn {
+    background-color: #0166C4;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.reg-cont {
+    margin: 0 16vh;
+}
+
+.li-a{
+    font-size: 1.2rem;
+    font-family: system-ui;
+}
+
+#h{
+    
+        font-size: 3rem;
+        font-family: playfair;
+        font-weight: 500;
+    
+}
+/* consulting */
+
+.consulting {
+    background-color: #004B92;
+    color: white;
+    height: 50vh;
+}
+
+.cons-btn {
+    background-color: #0166C4;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.cons {
+    margin: 0px 16vh;
+    padding-top: 20px;
+}
+.c-p {
+    font-size: 1.2rem;
+    font-family: poppins;
+    margin: 40px 0;
+}
+
+/* footer */
+
+
+
+
+.footer {
+    background-color: rgb(16, 39, 67);
+    display: flex;
+    width: 100%;
+    height: 30vh;
+}
+
+.footer-1 {
+    display: flex;
+    color: white;
+}
+
+.logo-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: auto;
+}
+
+.foot {
+    margin: auto;
+}
+
+.footer-trainning {
+    margin: auto;
+    padding: 0 20px;
+    border-left: 2px solid white;
+}
+
+.footer-logo {
+    padding: 0 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+
+/* responsive */
+
+
+.icon {
+    display: none;
+    float: right;
+    margin: 45px;
+}
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+     .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+}
+@media screen and (max-width: 700px) {
+    .program {
+         height: 60vh;
+        background-size: 99vw 60vh; 
+        transform: none;
+        margin-bottom: 40px;
+    }
+    .program-div{
+        height: 50vh;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .back,#red-img-id {
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #ul {
+        flex-direction:column;
+        background-color: #0469C5;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+   .components{
+       width: 100%;
+       margin: 0px;
+       text-align: left;
+       /* display: none; */
+   }
+}
+
+@media screen and (max-width: 1200px) {
+    .icon {
+        display: block;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #nav-img {
+        width: 185px;
+        height: 10vh;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .btn-register {
+        margin: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .section-img {
+        display: none;
+    }
+}
+/* cards */
+@media screen and (max-width: 600px) {
+    .sec-c-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sec-c-disc {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .head-p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .head-2 {
+        font-size: 1rem;
+    }
+}
+/* registration */
+
+@media screen and (max-width: 600px) {
+   .reg-cont{
+       margin: 0;
+   }
+}
+@media screen and (max-width: 600px) {
+    .li-a{
+        font-size: 1rem;
+    }
+ }
+
+ @media screen and (max-width: 600px) {
+    .reg-disc{
+        padding: 8px 0 0 0;
+        background-color: white;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .reg-inc{
+        background-image: none;
+        color: black;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    #h{
+        font-size: 2rem;
+    }
+ }
+/* consulting */
+@media screen and (max-width: 600px) {
+    .cons{
+       margin: 0 4vw;
+       padding: 10px;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .consulting{
+       height: 55vh;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .c-p{
+      font-size: 1rem;
+      margin: 10px;
+    }
+ }
+
+
+/* footer responsive */
+@media screen and (max-width: 600px) {
+    .footer {
+        display: block;
+        height: 60vh;
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-1 {
+        display: block;
+    }
+}

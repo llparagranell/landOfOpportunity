@@ -1,0 +1,497 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    width: 100%;
+    /* position: absolute; */
+    z-index: -1;
+}
+#nav-img {
+  width: 15vw;
+  height: 13vh;
+}
+.nav-items{
+    width: 100%;
+}
+.components{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin: 5vh;
+}
+   
+.comp-li{
+    list-style-type: none;
+    padding: 10px 25px;
+}
+.comp-a{
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+
+}
+.btn-register {
+    background-color: #ff1111;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-family: poppins;
+}
+
+/* header */
+
+.head{
+    height: 60vh;
+    background-image:url('../images/shutterstock_779216197.png');
+    background-size: 100vw 60vh;
+    transform: translateY(-7vh);
+
+}
+.head-content{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color:#0f2743bb ;
+}
+
+/* back-image-red */
+.red-img{
+    width: 100%;
+    text-align: start;
+}
+#red-img-id {
+    width: 100%;
+    margin: -20vh 0 0 0;
+}
+
+
+
+/* img-cards */
+
+.img-cards{
+    transform: translateY(-16vh);
+}
+.images {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.img-card-p{
+    background-color: #0469C5;
+    margin: -4px 0px;
+    padding: 11px 5px;
+    color: white;
+    font-family: monospace;
+    font-size: 1rem;
+    box-shadow: 1px 1px blue;
+}
+
+.card-div{
+    
+        margin: 0 20px;
+    
+}
+
+/* image-blue */
+
+
+/* back-image-red */
+.blue-img{
+    width: 100%;
+    text-align: start;
+}
+#blue-img-id {
+    width: 100%;
+    margin: -25vh 0 0 0;
+}
+
+
+
+/* footer */
+.footer {
+    background-color: rgb(16,39,67);
+    display: flex;
+    width: 100%;
+    margin-top: -20vh;
+    height: 30vh;
+    position: absolute;
+}
+.footer-1 {
+    display: flex;
+    color: white;
+}
+.logo-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: auto;
+}
+.foot {
+    margin: auto;
+}
+.footer-trainning{
+    margin: auto;
+    padding: 0 20px;
+    border-left: 2px solid white;
+}
+.footer-logo {
+    padding: 0 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.model-cont{
+  margin: 0 61px 0 0;
+}
+
+
+
+
+
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  /* for one */
+  .modal-content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+  /* for two */
+
+
+  .modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+
+  .modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  
+  /* for two */
+
+
+  .modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+
+  .modal-content3 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  
+  /* for for */
+
+
+  .modal4 {
+    display: none; /* Hidden by default */
+    position: absolute; 
+    z-index: 1; /* Sit on top */
+    /* padding-top: 100px; Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 150vh; /* Full height */
+    overflow-y: auto;
+    overflow: hidden;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+
+  .modal-content4 {
+    background-color: #fefefe;
+    margin:40vh auto auto auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close4 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+.model-div{
+    display: flex;
+}
+  .model-img {
+    margin-right: 60px;
+}
+
+.btn-cg{
+    padding: 10px 25px;
+    background-color: #0469C5;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 15px;
+}
+
+
+
+/* responsive */
+
+
+.icon {
+  display: none;
+  float: right;
+  margin: 45px;
+}
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+   .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .back {
+      display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+      flex-direction: column;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #ul {
+      flex-direction:column;
+      background-color: #0469C5;
+      width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+ .components{
+     width: 100%;
+     margin: 0px;
+     text-align: left;
+     /* display: none; */
+ }
+}
+
+@media screen and (max-width: 1200px) {
+  .icon {
+      display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #nav-img {
+      width: 185px;
+      height: 10vh;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .btn-register {
+      margin: 10px;
+  }
+}
+
+
+
+   /* header */
+   @media screen and (max-width: 800px) {
+    .head,.head-content{
+        height: 70vh;
+        background-size: 100vw 70vh;
+        transform: none;
+    } 
+     }
+
+   /* card-images */
+   @media screen and (max-width: 700px) {
+    .img-cards{
+      transform: none;
+    } 
+     }
+   @media screen and (max-width: 700px) {
+    .images{
+        flex-direction: column ;
+    } 
+     }
+     @media screen and (max-width: 700px) {
+     .card-div {
+      margin: 12px 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .model-img{
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .model-cont{
+    margin: 0 0 0 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .modal4{
+    height: 355vh;
+  }
+  .modal1,.modal2,.modal3{
+    height: 80vh;
+  }
+}
+
+
+
+  /* images - color */
+  @media screen and (max-width: 700px) {
+    .red-img,.blue-img{
+      display: none;
+    }
+ }
+       
+/* footer responsive */
+@media screen and (max-width: 600px) {
+  .footer{
+      display: block;
+      height: 60vh;
+      margin: 5vh 0 0 0;
+      text-align: center;
+  } 
+   }
+   @media screen and (max-width: 600px) {
+       .footer-1{
+           display: block;
+       } 
+        }          

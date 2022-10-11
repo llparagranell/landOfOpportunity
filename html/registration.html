@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration</title>
+    <link rel="stylesheet" href="../css/registration.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img
+          src="../images//logo.jpg"
+          alt=""
+          id="nav-img"
+        />
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="color: black;">
+          <i class="fa fa-bars"></i>
+      </div>
+      <div class="nav-items">
+        <div class="components"  id="myTopnav" >
+          <ul style="display: flex"id="ul" >
+            <li class="comp-li"><a class="comp-a" href="../index.html">HOME</a></li>
+            <li class="comp-li"><a class="comp-a" href="../html/coaches.html">COACHES</a></li>
+            <li class="comp-li"><a class="comp-a" href="../html/program.html">PROGRAM</a></li>
+            <li class="comp-li"><a class="comp-a" href="../html/registration.html">REGISTRATION</a></li>
+            <li class="comp-li"><a class="comp-a" href="../html/consulation.html">CONSULTATION</a></li>
+            <li class="comp-li"><a class="comp-a" href="../html/contact.html">CONTACT</a></li>
+            <li class="comp-li"><a class="comp-a" href="../html/registration.html">LOGIN</a></li>
+            <a href="../html/registration.html"><button class="btn-register" style="cursor: pointer;">Register Now</button></a>
+            </a>
+          </ul>
+        </div>
+        <div class="back">
+          <img src="../images/Group 44.png" alt="" style="width: 80vw;height: 20vh;">
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- section-1 -->
+
+    <section class="reg">
+      <div class="reg-div">
+        <h3 style="font-size: 1.5rem">LAND OF OPPORTUNITY</h3>
+        <h1 style="font-size: 3rem">
+          Registration for Opportunists <br />$925 per access
+        </h1>
+      </div>
+    </section>
+
+    <!-- section-2 -->
+
+    <section class="reg-2">
+      <div class="reg-box">
+        <div class="reg-disc-img">
+          <img
+            src="../images/GPL Wrkbook_cover.png"
+            alt=""
+            style="width: 60%"
+          />
+        </div>
+        <div class="reg-disc">
+          <p
+            id="p-disc"
+          >
+            Membership includes your unlimited access for one year from receipt
+            of credit card approval. (Approval takes approximately 24 hours.)
+            You will receive an email confirming your membership and a link to
+            the Land of Opportunity videos and workbook PDFs. <br />
+            <br />A hard copy of the Workbook will be shipped to you within 24
+            business hours after credit card approval.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- form-registration -->
+
+
+    <section class="reg-form">
+      <div class="form-div">
+
+        <h1  style="font-size: 2.7rem;margin-bottom: 25px;font-weight: 700;color: #0f2734;">To subscribe to our program, <br> please complete the following:</h1>
+        <p style="font-size: 1.1rem;margin-bottom: 25px;font-weight: 700;">To subscribe to our program, please complete the following:</p>
+      </div>
+
+
+      <form action="../html/registration.html">
+        <ul class="ull">
+        <label for="">First Name</label>
+        <input type="text" class="in" placeholder="First Name">
+      </ul>
+
+      <ul class="ull">
+        <label for="">Last Name</label>
+        <input  class="in" type="text" placeholder="Last Name">
+      </ul>
+
+      
+        <label class="la" for="">Title</label>
+        <input class="inn" type="text" placeholder="Title">
+      
+
+        <label class="la" for="">Company</label>
+        <input class="inn" type="text" placeholder="Company Name">
+
+        <ul class="ull">
+        <label for="">Phone:Mobile</label>
+        <input class="in" type="number" placeholder="Mobile Phone">
+      </ul>
+
+      <ul class="ull">
+        <label for="">Phone:Office</label>
+        <input class="in" type="number" placeholder="Office Phone">
+      </ul>
+
+        <label class="la" for="">Email</label>
+        <input class="inn" type="email" placeholder="Email">
+
+        <label class="la" for="">Address</label>
+        <input class="inn" type="text" placeholder="Address">
+
+        <label class="la" for="">Suite/Unit/Floor</label>
+        <input class="inn" type="text" placeholder="Address">
+
+
+
+
+<div>
+  <ul class="ull">
+        <label for="">City</label>
+        <input class="in" type="City" placeholder="City">
+      </ul>
+
+      <ul class="ull">
+        <label for="">State</label>
+        <select class="ii">
+          <option value="">State</option>
+          <option value="">M.P</option>
+          <option value="">A.P</option>
+          <option value="">U.P</option>
+        </select>
+      </ul>
+
+      <ul class="ull">
+        <label for="">Zip Code</label>
+        <input class="ii" type="text" placeholder="Zip Code">
+      </ul>
+      </div>
+
+         
+<!--                                                *******************                                      -->
+
+
+        <p  style="font-size: 1.1rem;margin: 25px 0;font-weight: 700;">Workbook Shipping Address</p>
+        <input type="checkbox">
+        <label style="font-size: 1rem;font-family: system-ui;" for="">Same as above</label><br>
+        <input type="checkbox" >
+        <label style="font-size: 1rem;font-family: system-ui;" for="">Ship to another address</label><br>
+
+
+<!--                                                *******************                                        -->
+
+        <h3 style="font-size: 1.1rem;margin: 25px 0;font-weight: 700;">Workbook Shipping Address</h3>
+        <ul class="ull">
+        <label for="">Years in business?</label>
+        <input class="in" type="text" placeholder="First Name">
+      </ul>
+
+      <ul class="ull">
+        <label for="">Last Name</label>
+        <input class="in" type="text" placeholder="Last Name">
+      </ul>
+
+        <label class="la" for="">Company</label>
+        <input class="inn" type="text" placeholder="Company Name">
+
+        <ul class="ull">
+        <label for="">Phone:Mobile</label>
+        <input class="in" type="number" placeholder="Mobile Phone">
+      </ul>
+
+      <ul class="ull">
+        <label for="">Phone:Office</label>
+        <input class="in" type="number" placeholder="Office Phone">
+      </ul>
+
+        <label class="la" for="">Email</label>
+        <input class="inn" type="email" placeholder="Email">
+
+        <label class="la" for="">Address</label>
+        <input class="inn" type="text" placeholder="Address">
+
+        <label class="la" for="">Address</label>
+        <input class="inn" type="text" placeholder="Address">
+
+
+
+
+<div>
+  <ul class="ull">
+        <label for="">City</label>
+        <input class="in" type="City" placeholder="City">
+      </ul>
+
+      <ul class="ull">
+        <label for="">State</label>
+        <select class="ii">
+          <option value="">State</option>
+          <option value="">M.P</option>
+          <option value="">A.P</option>
+          <option value="">U.P</option>
+        </select>
+      </ul>
+
+      <ul class="ull">
+        <label for="">Zip Code</label>
+        <input class="ii" type="text" placeholder="Zip Code">
+      </ul>
+      </div>
+
+<!--                                          *******************                            -->
+
+
+
+        <h3 style="font-size: 1.1rem;margin:25px 0;font-weight: 700;">Company Overview:(all fields must be completed)</h3>
+
+        <label class="la" for="">Years in business?</label>
+        <input class="in" type="text" placeholder="Years in business?">
+
+        <label class="la" for=""># of employees?</label>
+        <input class="in" type="text" placeholder="# of employees?">
+
+        <label  class="la" for="">Described the products/services you offer?</label>
+        <textarea class="inn" name="" id="" cols="60" rows="10">Described the products/services you offer?</textarea>
+
+
+<!--                                              * *** *********                              -->
+
+
+        <h3 style="font-size: 1.1rem;margin: 25px 0;font-weight: 700;">Provide your industry classification code:</h3>
+        <input type="checkbox">
+        <label style="font-size: 1rem;font-family: system-ui;" for="">SIC</label><br>
+        <input type="checkbox" >
+        <label style="font-size: 1rem;font-family: system-ui;" for="">NAICS</label><br>
+        <input type="checkbox" >
+        <label style="font-size: 1rem;font-family: system-ui;" for="">Don't Know</label><br>
+
+
+        <!--                        ******************                              -->
+
+
+        <h3 style="font-size: 1.1rem;margin: 25px 0 0 0;font-weight: 700;"class="la">Classification Code:</h3>
+        <input class="in" type="text" placeholder="00-00000">
+
+
+        <!--                            **********************                -->
+
+
+        <h3 style="font-size: 1.1rem;margin: 25px 0;font-weight: 700;">Do you have a SAM (System Award Management)Cage Code?</h3>
+        <input type="checkbox">
+        <label style="font-size: 1rem;font-family: system-ui;" for="">Yes</label><br>
+        <input type="checkbox" >
+        <label style="font-size: 1rem;font-family: system-ui;" for="">No</label><br>
+        <input type="checkbox" >
+        <label style="font-size: 1rem;font-family: system-ui;" for="">Unsure</label><br>
+
+
+        <!--                            ********************                       -->
+
+
+        <h3 style="font-size: 1.1rem;margin: 25px 0;font-weight: 700;">Identity your federal socio economic classification</h3>
+        <input type="checkbox">
+        <label style="font-size: 1rem;font-family: system-ui;" for="">Women-Owned Small business</label><br>
+        <input type="checkbox" >
+        <label style="font-size: 1rem;font-family: system-ui;" for="">Economically Disadvantage Women Owned Small Business</label><br>
+        <input type="checkbox" >
+        <label style="font-size: 1rem;font-family: system-ui;" for="">HubZone</label><br>
+        <input type="checkbox" >
+        <label style="font-size: 1rem;font-family: system-ui;" for="">Sevice-Disabled Veteran Owned Small Business</label><br>
+        <input type="checkbox" >
+        <label style="font-size: 1rem;font-family: system-ui;" for="">Veteran Owned Small Business</label><br>
+
+
+
+        <!--                                   **************************                             -->
+
+
+        <h3 style="font-size: 1.1rem;margin: 25px 0 0 0;font-weight: 700;">Date certified (if known)</h3>
+        <input class="in" type="text" placeholder="00-00000">
+
+        <h3 style="font-size: 1.1rem;margin: 25px 0 0 0;font-weight: 700;"><span>*</span>Privacy Policy and Notice for Land of Opportunity Training</h3>
+        <button class="btn-submit">Click to Read and Agree</button>
+
+
+        <!-- payment area -->
+
+        <div class="payment">
+
+          <!-- billing -->
+          
+          <div class="billing">
+            <h3 style="font-size: 1.1rem;margin: 25px 0;font-weight: 700;">Billing Info</h3>
+
+
+            
+            <label class="la" for="">First Name</label>
+            <input class="in" type="text" placeholder="First Name" style="background: white;border-radius: 3px;border: 0.5px solid black;">
+        
+
+            <label class="la" for="">Address</label>
+        <input class="in" type="text" placeholder="Address" style="background: white;border-radius: 3px;border: 0.5px solid black;">
+
+        <label for="">Suite/Unit/Floor</label>
+        <input class="in" type="text" placeholder="Suite" style="background: white;border-radius: 3px;border: 0.5px solid black;">
+
+        <ul class="ull">
+          <label for="">City</label>
+          <input class="ii" type="City" placeholder="City" style="width: 7vw;background: white;border-radius: 3px;border: 0.5px solid black;">
+        </ul>
+  
+        <ul class="ull">
+          <label for="">Zip Code</label>
+          <input class="ii" type="text" placeholder="Zip Code" style="width: 7vw;background: white;border-radius: 3px;border: 0.5px solid black;">
+        </ul>
+  
+        <label class="la" for="">State</label>
+        <select class="in" style="width: 22vw;background: white;border-radius: 3px;border: 0.5px solid black;">
+          <option value="">State</option>
+          <option value="">M.P</option>
+          <option value="">A.P</option>
+          <option value="">U.P</option>
+        </select>
+
+          </div>
+
+          <!-- credit card -->
+           
+          <div class="credit"  style="margin:25px 0 0 0;">
+            <h3  style="font-size: 1.1rem;margin-bottom: 25px;font-weight: 700;">Credit Card Info</h3>
+
+            <label class="la" for="">CARD NUMBER</label>
+            <input class="in" type="text" placeholder="000000000000" style="background: white;border-radius: 3px;border: 0.5px solid black;">
+            
+       
+            
+          <label class="la" for="">CARDHOLDER NAME</label>
+            <input class="in" type="text" placeholder="Cardholder Name" style="background: white;border-radius: 3px;border: 0.5px solid black;">
+
+            <label class="la" for="">EXPIRE DATE</label>
+            <input class="in" type="text" placeholder="00 / 00" style="background: white;border-radius: 3px;border: 0.5px solid black;">
+
+            <label class="la" for="">CVV</label>
+            <input class="ii" type="text" placeholder="000" style="background: white;border-radius: 3px;border: 0.5px solid black;">
+
+          </div>
+        </div>
+
+        <!-- billing in different form above -->
+        <h1 style="font-size: 1.1rem;margin: 25px 0 10px 0;font-weight: 700; color: #7f7f7f7f;">Billing in different form above</h1>
+
+<div id="billing">
+        <ul class="ull">
+        <label class="la" for="">Full Name</label>
+            <input class="in" type="text" placeholder="Full Name" style="background: white;border-radius: 3px;border: 0.5px solid black;">
+          </ul>
+
+          <ul class="ull">
+            <label for="">Address</label>
+        <input class="in" type="text" placeholder="Address" style="background: white;border-radius: 3px;border: 0.5px solid black;">
+      </ul>
+
+      <ul class="ull">
+        <label for="">Suite/Unit/Floor</label>
+        <input class="in" type="text" placeholder="Suite" style="background: white;border-radius: 3px;border: 0.5px solid black;">
+      </ul>
+
+      <ul class="ull">
+        <label for="">City</label>
+        <input class="ii" type="City" placeholder="City"  style="width: 7vw;background: white;border-radius: 3px;border: 0.5px solid black;">
+      </ul>
+
+      <ul class="ull">
+        <label for="">Zip Code</label>
+        <input class="ii" for="" type="text" placeholder="Zip Code" style="width: 7vw;background: white;border-radius: 3px;border: 0.5px solid black;">
+      </ul>
+
+      <ul class="ull">
+        <label class="la" for="">State</label>
+        <select class="in" style="width: 22vw;background: white;border-radius: 3px;border: 0.5px solid black;">
+          <option value="">State</option>
+          <option value="">M.P</option>
+          <option value="">A.P</option>
+          <option value="">U.P</option>
+        </select>
+      </ul>
+
+
+        <button class="btn-submit p">Click here to complete your purchase.</button>
+      </div>
+
+      </form>
+
+
+    </section>
+
+
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="foot">
+        <div class="footer-1">
+          <div class="footer-logo">
+            <img src="../images/footer-logo-2.jpg" alt="" />
+          </div>
+          <div class="footer-trainning" style="margin: auto">
+            <h3 style="font-size: 1.5rem; font-weight: 100; margin: 0 0">
+              TRAINNING
+            </h3>
+            <p style="margin: 0">
+              Growth Through Federal <br />
+              Government Contracting
+            </p>
+          </div>
+        </div>
+        <p style="color: white; margin: 30px">
+          © 2022 Gorby Peters & Associates, LLC
+        </p>
+      </div>
+      <div class="logo-social">
+        <div class="s1">
+          <img src="../images/footer-logo.jpg" alt="" />
+        </div>
+        <div class="s2">
+          <a><i class="fa fa-facebook fa-2x"></i></a>
+          <a><i class="fa fa-instagram fa-2x"></i></a>
+          <a><i class="fa fa-twitter fa-2x"></i></a>
+          <a><i class="fa fa-linkedin fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+      const myFunction = () => {
+        const topNav = document.getElementById("myTopnav");
+        
+        (topNav.style.display === "none") ? topNav.style.display = "block" : topNav.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
